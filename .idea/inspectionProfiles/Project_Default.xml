@@ -1,0 +1,67 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="38">
+            <item index="0" class="java.lang.String" itemvalue="querystring-parser" />
+            <item index="1" class="java.lang.String" itemvalue="protobuf" />
+            <item index="2" class="java.lang.String" itemvalue="greenlet" />
+            <item index="3" class="java.lang.String" itemvalue="alembic" />
+            <item index="4" class="java.lang.String" itemvalue="joblib" />
+            <item index="5" class="java.lang.String" itemvalue="threadpoolctl" />
+            <item index="6" class="java.lang.String" itemvalue="tabulate" />
+            <item index="7" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="8" class="java.lang.String" itemvalue="cloudpickle" />
+            <item index="9" class="java.lang.String" itemvalue="setuptools" />
+            <item index="10" class="java.lang.String" itemvalue="cycler" />
+            <item index="11" class="java.lang.String" itemvalue="mako" />
+            <item index="12" class="java.lang.String" itemvalue="markupsafe" />
+            <item index="13" class="java.lang.String" itemvalue="websocket-client" />
+            <item index="14" class="java.lang.String" itemvalue="docker" />
+            <item index="15" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="16" class="java.lang.String" itemvalue="markdown" />
+            <item index="17" class="java.lang.String" itemvalue="entrypoints" />
+            <item index="18" class="java.lang.String" itemvalue="itsdangerous" />
+            <item index="19" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="20" class="java.lang.String" itemvalue="blinker" />
+            <item index="21" class="java.lang.String" itemvalue="pyarrow" />
+            <item index="22" class="java.lang.String" itemvalue="scipy" />
+            <item index="23" class="java.lang.String" itemvalue="werkzeug" />
+            <item index="24" class="java.lang.String" itemvalue="databricks-cli" />
+            <item index="25" class="java.lang.String" itemvalue="kiwisolver" />
+            <item index="26" class="java.lang.String" itemvalue="setuptools-scm" />
+            <item index="27" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="28" class="java.lang.String" itemvalue="sqlalchemy" />
+            <item index="29" class="java.lang.String" itemvalue="contourpy" />
+            <item index="30" class="java.lang.String" itemvalue="mlflow" />
+            <item index="31" class="java.lang.String" itemvalue="jinja2" />
+            <item index="32" class="java.lang.String" itemvalue="fonttools" />
+            <item index="33" class="java.lang.String" itemvalue="importlib-resources" />
+            <item index="34" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="35" class="java.lang.String" itemvalue="pillow" />
+            <item index="36" class="java.lang.String" itemvalue="pyjwt" />
+            <item index="37" class="java.lang.String" itemvalue="flask" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pyspark-stubs==3.0.0.post3" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.value" />
+          <option value="tailor.models.category_mapping.CategoryMapping.__add__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

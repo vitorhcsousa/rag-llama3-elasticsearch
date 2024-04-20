@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rag-llama3-elasticsearch"
+version = "0.1.0"
+description = ""
+authors = ["Vitor Sousa <vitorsousavhcs@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+llama-index = "^0.10.30"
+llama-index-embeddings-ollama = "^0.1.2"
+llama-index-llms-ollama = "^0.1.2"
+llama-index-vector-stores-elasticsearch = "^0.1.7"
+sentence-transformers = "^2.7.0"
+python-dotenv = "^1.0.1"
+streamlit = "^1.33.0"
+asyncio = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
