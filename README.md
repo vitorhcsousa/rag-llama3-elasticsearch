@@ -19,15 +19,16 @@ This repository houses a powerful tool that blends **Streamlit**, **Elasticsearc
 - Ollama
 - llama_index
 - Streamlit
+- poetry
 
 ### Installation
 
 Clone and set up the project:
 
 ```bash
-git clone https://github.com/your-username/document-query-interface.git
-cd document-query-interface
-pip install -r requirements.txt
+git clone https://github.com/vitorhcsousa/rag-llama3-elasticsearch.git
+cd rag-llama3-elasticsearch
+poetry install
 ```
 
 ### Usage
@@ -38,10 +39,10 @@ poetry run streamlit run app.py
 ```
 
 ### Structure 📂
-app.py: The Streamlit application entry point.
-index/: Handles document indexing in Elasticsearch.
-query/: Manages the query engine setup and execution.
-assets/: Static files like images for the UI.
+- app.py: The Streamlit application entry point.
+- index.py: Handles document indexing in Elasticsearch.
+- query.py: Manages the query engine setup and execution.
+- assets/: Static files like images for the UI.
 
 ### Contributing 🤝
 Interested in contributing? Great! Here's how:
