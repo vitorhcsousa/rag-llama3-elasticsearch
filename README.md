@@ -1,4 +1,5 @@
 # RAG with LlamaIndex, Elasticsearch and Llama3 🦙
+![Llama](assets/llamma.jpeg)
 
 This repository houses a powerful tool that blends **Streamlit**, **Elasticsearch**, and cutting-edge language models like **Llama3**. It's designed to simplify querying documents via conversation vectors embedded into a dynamic, user-friendly web interface.
 
