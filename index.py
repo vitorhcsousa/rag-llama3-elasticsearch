@@ -17,18 +17,20 @@ es_vector_store = ElasticsearchStore(
 )
 
 
-def get_documents_from_file(file_path) -> list:
+def get_documents_from_json(json_data) -> list:
     """
-    This function reads a json file and returns a list of documents
+    This function receives a JSON object (Python dictionary) and returns a list of documents.
     """
-    with open(file_path, mode="rt") as f:
-        conversation_dict = json.loads(f.read())
-    documents = [Document(text=item["conversation"], metadata={"conversation_id": item["conversation_id"]}) for item in
-                 conversation_dict]
+    documents = [Document(text=item["conversation"], metadata={"conversation_id": item["conversation_id"]})
+                 for item in json_data]
     return documents
 
 
 def ingest_documents(documents):
+    """
+    This function ingests the documents into Elasticsearch
+    """
+    # TODO make the model a parameter from the interface
     ollama_embedding = OllamaEmbedding("llama3")
     pipeline = IngestionPipeline(transformations=[SentenceSplitter(chunk_size=350, chunk_overlap=50), ollama_embedding],
                                  vector_store=es_vector_store)
