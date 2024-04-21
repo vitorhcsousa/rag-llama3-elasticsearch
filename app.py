@@ -46,6 +46,7 @@ def main():
             json_data = json.load(json_file)
             documents = get_documents_from_json(json_data)
             ingest_documents(documents)
+            st.success("Documents have been successfully ingested and indexed.")
     else:
         st.success("Embeddings are already present in Elasticsearch.")
 

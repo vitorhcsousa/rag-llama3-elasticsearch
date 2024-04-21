@@ -53,3 +53,7 @@ Interested in contributing? Great! Here's how:
 3. Commit your changes (git commit -am 'Add some feature').
 4. Push to the branch (git push origin feature-branch).
 5. Create a new Pull Request.
+
+---
+This project has as reference: \
+"Using RAG with LlamaIndex and Elasticsearch", Elastic Search Labs Blog, available at: https://www.elastic.co/search-labs/blog/rag-with-llamaIndex-and-elasticsearch. ↩
